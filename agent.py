@@ -41,8 +41,6 @@ summarizer_agent = LlmAgent(
     output_key="summary",
 )
 
-
-# IMPORTANT: ADK WEB ENTRY POINT
 root_agent = SequentialAgent(
     name="AutonomousTeam",
     sub_agents=[
